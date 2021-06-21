@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
 scroll-behavior: smooth;
 
@@ -6,22 +10,74 @@ scroll-behavior: smooth;
 body{
     background-color: rgba(91, 111, 112, 0.39);
 }
+.img{
+    display: table;
+    margin: 0 auto;
+    
+
+}
+.indivimg{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10%;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-bottom: 5%;
+
+}
 
 #navigation {
+
+  
     height: 2000px;
 
     position:sticky;
-
+    
+    
     
 
-  
-
     
-
-    text-align: right;
+    text-align: center;
 
     
 }
+#navigation ul{ list-style: none;}
+
+ li div a{
+    list-style: none;
+    
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;text-transform: uppercase;
+
+    
+
+
+    
+
+}
+
+li div{ border: solid 1px black;
+        height: 50px;
+        display: table;
+        width: 100%;
+        margin-top: 0.3%;
+
+
+
+}
+li div:hover{
+    background-color: blanchedalmond;
+}
+
+
 
 #lebenslauf, #portfolio, #skills, #kontakt {height: 2000px; 
 
