@@ -9,6 +9,7 @@ scroll-behavior: smooth;
 
 body{
     background-color: rgba(91, 111, 112, 0.39);
+    font-family:'Courier New', Courier, monospace
 }
 .img{
     display: table;
@@ -29,39 +30,25 @@ body{
 
 h1{
     text-align: center;
-    margin-bottom: 5%;
-
+    margin-bottom: 2%;
+    
 }
 
 #navigation {
-
-  
     height: 2000px;
-
     position:sticky;
-    
-    
-    
-
-    
     text-align: center;
-
-    
 }
-#navigation ul{ list-style: none;}
+
+#navigation ul{
+     list-style: none;
+}
 
  li div a{
-    list-style: none;
-    
+    list-style: none;  
     text-decoration: none;
     display: table-cell;
     vertical-align: middle;text-transform: uppercase;
-
-    
-
-
-    
-
 }
 
 li div{ border: solid 1px black;
@@ -70,21 +57,38 @@ li div{ border: solid 1px black;
         width: 100%;
         margin-top: 0.3%;
 
-
-
 }
+
 li div:hover{
     background-color: blanchedalmond;
 }
 
 
 
-#lebenslauf, #portfolio, #skills, #kontakt {height: 2000px; 
-
-padding-top: 60px;
-
-
+#lebenslauf, #portfolio, #skills, #kontakt {
+    height: 2000px; 
+    padding-top: 60px;
+    
+    
 }
+
+#navcolor_1{
+    background-color:#0DCBFA;
+}
+
+#navcolor_2{
+    background-color:#0BDED0;
+}
+
+#navcolor_3{
+    background-color:#01F59F;
+}
+
+#navcolor_4{
+    background-color:#0BDE58;
+}
+
+
 
 
 
