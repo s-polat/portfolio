@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: rgb(153, 160, 153);
 }
 html {
 scroll-behavior: smooth;
@@ -8,9 +9,11 @@ scroll-behavior: smooth;
 }
 
 body{
-    background-color: rgba(91, 111, 112, 0.39);
+    background-color: rgb(0, 0, 0);
     font-family:'Courier New', Courier, monospace
 }
+
+
 .img{
     display: table;
     margin: 0 auto;
@@ -21,8 +24,8 @@ body{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    height: 250px;
-    width: 250px;
+    margin-top: 20%;
+    height: 20vh;
     margin-bottom: 10%;
 }
 
@@ -30,14 +33,21 @@ body{
 
 h1{
     text-align: center;
+    margin-bottom: -2%;
+    font-size: 5vh;  
+}
+#h2web{text-align: center;
     margin-bottom: 2%;
-    
+    font-size: 4vh; 
+    color: rgb(82, 82, 82);
 }
 
 #navigation {
-    height: 2000px;
-    position:sticky;
+    height: 100vh;
+    
     text-align: center;
+    
+
 }
 
 #navigation ul{
@@ -49,10 +59,12 @@ h1{
     text-decoration: none;
     display: table-cell;
     vertical-align: middle;text-transform: uppercase;
+    font-size: 4vh;
+    color: black;
 }
 
 li div{ border: solid 1px black;
-        height: 50px;
+        height: 6vh;
         display: table;
         width: 100%;
         margin-top: 0.3%;
@@ -66,8 +78,9 @@ li div:hover{
 
 
 #lebenslauf, #portfolio, #skills, #kontakt {
-    height: 2000px; 
-    padding-top: 60px;
+    height: 100vh; 
+    text-align: center;
+    
     
     
 }
@@ -86,6 +99,11 @@ li div:hover{
 
 #navcolor_4{
     background-color:#0BDE58;
+}
+.lebenslauf{
+    padding: 3%;
+    font-size: 2em;
+    text-align: center;
 }
 
 
