@@ -65,17 +65,34 @@ h1{
 #navigation {
     height: 100vh;
     text-align: center;
+    justify-content: space-between;
+
 }
 
-#navigation ul{
+#navigation ul li {
      list-style: none;
      width: 50%;
      margin: 0 auto;
-     
-     
+     justify-content: space-between;
 }
 
- li div a{
+.icon{
+    font-size: 1.2em;
+    vertical-align: -.1em;
+    
+       
+
+}
+
+.icons{
+    font-size: 3em;
+    color: rgb(58, 248, 137);
+    margin: .5em 0;
+    text-shadow: 5px 2px 9px #1fec3b;
+}
+
+
+ li div a {
     list-style: none;  
     text-decoration: none;
     display: table-cell;
@@ -103,9 +120,23 @@ li div:hover{
     
     height: 100vh; 
     text-align: center;
+}
+
+div#kontakt > div > a{
+    text-decoration: none;
+}
+
+div#kontakt > div > a > span{
+    font-size: 2em;
+    vertical-align: .4em;
+    margin-left: .4em;
     
-    
-    
+}
+
+div#kontakt > div{
+    text-align: left;
+    margin-left: 5%;
+
 }
 
 #navcolor_1{
