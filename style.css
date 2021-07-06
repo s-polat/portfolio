@@ -185,6 +185,36 @@ hr{
 }
 
 
+.contakt{
+    margin-left: 30%;
+    margin-top: 50px;
+    width: 30%;
+    text-align: right;
+}
+
+textarea, input[type=email] {
+    width: 60%;
+    color: black;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+textarea{
+    margin-top: 15px;
+    height: 100px;
+}
+
+.button button{
+    background-color:#58f577
+    border: 0;
+    color: grey;
+    height: 30px;
+    width: 70px;
+    padding: 2px;
+    
+    
+}
+
 
 
 
