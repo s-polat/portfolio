@@ -1,5 +1,20 @@
 {
-  "dependencies": {
-    "live-server": "^1.2.1"
-  }
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"sass scss/style.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-polat/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-polat/portfolio/issues"
+  },
+  "homepage": "https://github.com/s-polat/portfolio#readme"
 }
