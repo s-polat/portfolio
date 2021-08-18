@@ -25,170 +25,130 @@ body{
     background-color: rgb(0, 0, 0);
     font-family: 'Handlee', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-header#Home{
+#Home{
     display: block;
     text-decoration: none;
     position: fixed;
     right: 0;
     padding-right: 1%;
     font-size: 1.5em;
+}
 
-    figure.img{
-        display: table;
-        margin: 0 auto;
+.img{
+    display: table;
+    margin: 0 auto;
+}
 
-        img.indivimg{
-            display: table-cell;
-            vertical-align: middle;
-            text-align: center;
-            margin-top: 20%;
-            height: 20vh;
-            margin-bottom: 10%;
-            filter: grayscale(0);
-        }
-    }
+.indivimg{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20%;
+    height: 20vh;
+    margin-bottom: 10%;
+    filter: grayscale(0);
+}
 
-    h1{
-        text-align: center;
-        line-height: .8em;
-        font-size: 3.5em;
-        font-family:'Akaya Kanadaka', cursive;
-        font-weight: lighter;
-    }
+h1{
+    text-align: center;
+    line-height: .8em;
+    font-size: 3.5em;
+    font-family:'Akaya Kanadaka', cursive;
+    font-weight: lighter;
+     
+}
+#h2web{
+    text-align: center;
+    margin-bottom:1em;
+    font-size: 2em; 
+    color: rgb(82, 82, 82);
+    font-family:'Akaya Kanadaka', cursive;
+}
 
-    h2#h2web{
-        text-align: center;
-        margin-bottom:1em;
-        font-size: 2em; 
-        color: rgb(82, 82, 82);
-        font-family:'Akaya Kanadaka', cursive;
-    }
+#navigation {
+    height: 100vh;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+#navigation ul li {
+     list-style: none;
+     width: 50%;
+     margin: 0 auto;
+     justify-content: space-between;
 }
 
 
+.icon{
+    font-size: 1.2em;
 
-main{
-    nav#navigation{
-        height: 100vh;
-        text-align: center;
-        justify-content: space-between;
-
-        ul{
-            li{
-                list-style: none;
-                width: 50%;
-                margin: 0 auto;
-                justify-content: space-between;
-
-                div{
-                    height: 6vh;
-                    display: table;
-                    width: 100%;
-                    margin-top: 0.3%;
-                    & :hover{
-                        background-color: blanchedalmond;
-                    }
-                    a{
-                        list-style: none;  
-                        text-decoration: none;
-                        display: table-cell;
-                        vertical-align: middle;text-transform: uppercase;
-                        font-size: 1.2em;
-                        color: black;
-                        position: relative;
-
-                    }
-                    a#lebenslauf{
-                        span.nav-font-color{
-                            color: black;
-                            font-weight: bold;
-
-                        }
-
-                    }
-                    
-                }
-            }
-        }
-    }
-    section#lebenslauf{
-       
-        div.lebenslauf{
-            padding: 3%;
-            font-size: 1em;
-            text-align: left; 
-            a#dwnld{
-                display: block;
-                margin-top: 40vh;
-                text-decoration: none;
-            }
-        }
-    }
-    section#kontakt{
-        
-        div{
-            text-align: left;
-            margin-left: 5%;
-            a{
-                text-decoration: none;
-                span{
-                    font-size: 2em;
-                    vertical-align: .4em;
-                    margin-left: .4em;
-                }
-            }
-        }
-        form{
-            div.contact{
-                margin-left: 30%;
-                margin-top: 50px;
-                width: 30%;
-                text-align: right;
-                div{
-                    label{
-                        input{
-                            width: 60%;
-                            color: black;
-                            margin-top: 10px;
-                            padding: 2px;
-                        }
-                    }
-                }
-                div{
-                    textarea{
-                        width: 60%;
-                        color: black;
-                        margin-top: 10px;
-                        padding: 2px;
-                        margin-top: 15px;
-                        height: 100px;
-                    }
-                }
-                div.button{
-                    button{
-                        background-color:#58f577;
-                        border: 0;
-                        color: grey;
-                        height: 30px;
-                        width: 70px;
-                        padding: 2px;
-                    }
-                }
-            }
-        }
-    }
+    position: absolute;
+    right: .4em;
+    color: black;
+    
 }
+
 .icons{
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(58, 248, 137);
     margin: .5em 0;
     text-shadow: 5px 2px 9px #1fec3b;
 }
+.nav-font-color{
+    color: black;
+    font-weight: bold;
+}
+
+
+ li div a {
+    list-style: none;  
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;text-transform: uppercase;
+    font-size: 1.2em;
+    color: black;
+    position: relative;
+}
+
+li div{
+        height: 6vh;
+        display: table;
+        width: 100%;
+        margin-top: 0.3%;
+       
+
+}
+
+li div:hover{
+    background-color: blanchedalmond;
+}
+
+
+
 #lebenslauf, #portfolio, #skills, #kontakt {
     
     height: 100vh; 
     text-align: center;
 }
+
+#kontakt > div > a{
+    text-decoration: none;
+}
+
+#kontakt > div > a > span{
+    font-size: 2em;
+    vertical-align: .4em;
+    margin-left: .4em;
+    
+}
+
+#kontakt > div{
+    text-align: left;
+    margin-left: 5%;
+
+}
+
 #navcolor_1{
     background-color:#0DCBFA;
 }
@@ -204,6 +164,18 @@ main{
 #navcolor_4{
     background-color:#0BDE58;
 }
+.lebenslauf{
+    padding: 3%;
+    font-size: 1.1em;
+    text-align: left; 
+}
+
+#dwnld {
+    display: block;
+    margin-top: 40vh;
+    text-decoration: none;
+}
+
 hr{
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
@@ -211,16 +183,43 @@ hr{
     height: 1.5px;
     background-image: linear-gradient(to right, rgba(20, 19, 19, 0.356), rgb(145, 240, 153), rgba(19, 16, 16, 0.253));
 }
+
+
+.contakt{
+    margin-left: 30%;
+    margin-top: 50px;
+    width: 30%;
+    text-align: right;
+}
+
+textarea, input[type=email] {
+    width: 60%;
+    color: black;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+textarea{
+    margin-top: 15px;
+    height: 100px;
+}
+
+.button button{
+    background-color:#58f577;
+    border: 0;
+    color: grey;
+    height: 30px;
+    width: 70px;
+    padding: 2px;
+}
+
 @media only screen and (min-width:500px) {
     ul#navlist {
         display: flex;
         flex-direction:row;
     }
-    section#lebenslauf{
-        div.lebenslauf{
-            font-size: 2em;
-        }
-    }
+
+
 }
 
 
